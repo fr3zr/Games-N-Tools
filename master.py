@@ -2,7 +2,7 @@
 
 import os
 import sys
-import numGuess
+import random
 
 c = 1
 
@@ -15,21 +15,22 @@ while c == 1:
     myName = input('My name is : ')
     print('Hello, ' + myName +'!')
     print()
-    print('Please select a Category from below or type exit to cancel')
+    print('Please select a Category from below')
     print('[1] Games')
     print('[2] Tools')
+    print('[0] End Program')
     a = input()
     a = int(a)
     if a == 1:
         print('Please choose from one of the options down below')
         print()
         print('[1] Number Guessing Game')
-        print()
+        print('[0] Return to Category Menu')
         b = input()
         b = int(b)
         if b == 1:
             answer = 'y'
-            while answer == 'y'
+            while answer == 'y':
                 tries = 0
                 num = random.randint(1,20)
                 numGuessed = 0
@@ -55,6 +56,4 @@ while c == 1:
                 else:
                     print('You somehow created a error, please tell the administrator the steps to reproduce it')
             print('Exiting Number guessing game')
-        else:
-            print('You made an Error')
-        pass
+        elif b == 0:
