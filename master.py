@@ -3,7 +3,7 @@
 """Docstring of Application"""
 
 import os           # standard libraries
-import sys
+from sys import exit
 import random
 
 print('Hello, what is your name?')
@@ -36,4 +36,4 @@ while answer == 'y':
     else:
         print('You somehow created a error, please tell the administrator the steps to reproduce it')
 print('Exiting Program')
-sys.exit()
+exit()
