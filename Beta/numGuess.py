@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import random
+
 print('Hello, what is your name?')
 myName = input('My name is : ')
 print('Hello, ' + myName +'!')
@@ -29,5 +31,4 @@ while answer == 'y':
         answer = input('Do you want to try again? y/n : ')
     else:
         print('You somehow created a error, please tell the administrator the steps to reproduce it')
-print('Exiting Program')
-sys.exit()
+print('Exiting Number guessing game')
