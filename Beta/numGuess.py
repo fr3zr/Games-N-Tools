@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-"""Docstring of Application"""
-
 print('Hello, what is your name?')
 myName = input('My name is : ')
 print('Hello, ' + myName +'!')
