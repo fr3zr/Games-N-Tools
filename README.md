@@ -1,2 +1,2 @@
 # GamesAndTools
-A Python-built program with tools and games in it. This is just a for me learning Python. You can commit changes if you want :)
+A Python-built program with tools and games in it. I just did this to learn python. I would love to hear your thoughts
